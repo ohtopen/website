@@ -8,39 +8,34 @@ class Landing extends Component {
       <div style={{width: '100%', margin: 'auto'}}>
         <Grid className="landing-grid">
           <Cell col={12}>
-            <img
-              src="https://www.shareicon.net/download/2015/09/18/103157_man_512x512.png"
-              alt="avatar"
+            {<img
+              src={require('./ohto.jpg')}
+              alt="Ohto"
               className="avatar-img"
-              />
+              />}
 
             <div className="banner-text">
-              <h1>Full Stack Web Developer</h1>
+              <h1>Ohto Pentikäinen</h1>
 
             <hr/>
-
-          <p>HTML/CSS | Bootstrap | JavaScript | React | React Native | NodeJS | Express | MongoDB</p>
+          
+          <p>Just a lad from Helsinki, Finland. I work on projects in tech, real estate, blockchain, traveling etc.</p>
 
         <div className="social-links">
 
           {/* LinkedIn */}
-          <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+          <a href="https://www.linkedin.com/in/lad/" rel="noopener noreferrer" target="_blank">
             <i className="fa fa-linkedin-square" aria-hidden="true" />
           </a>
 
           {/* Github */}
-          <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+          <a href="https://github.com/ohtopen" rel="noopener noreferrer" target="_blank">
             <i className="fa fa-github-square" aria-hidden="true" />
           </a>
 
-          {/* Freecodecamp */}
-          <a href="http://google.com" rel="noopener noreferrer" target="_blank">
-            <i className="fa fa-free-code-camp" aria-hidden="true" />
-          </a>
-
           {/* Youtube */}
-          <a href="http://google.com" rel="noopener noreferrer" target="_blank">
-            <i className="fa fa-youtube-square" aria-hidden="true" />
+          <a href="https://www.facebook.com/ohto.pentikainen" rel="noopener noreferrer" target="_blank">
+            <i className="fa fa-facebook-square" aria-hidden="true" />
           </a>
 
         </div>
