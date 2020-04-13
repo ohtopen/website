@@ -38,6 +38,13 @@
   padding-top: 2em;
 }
 
+.resepti-body {
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 10em;
+  font-family: 'Oxygen', sans-serif;
+}
+
 .contact-grid {
   text-align: center;
   justify-content: center;

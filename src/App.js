@@ -18,6 +18,9 @@ class App extends Component {
             <Navigation>
               <Link to="/contact">Contact</Link>
             </Navigation>
+            <Navigation>
+              <Link to="/resepti">Resepti</Link>
+            </Navigation>
         </Drawer>
         <Content>
             <div className="page-content" />
