@@ -43,6 +43,8 @@
   justify-content: center;
   margin-bottom: 10em;
   font-family: 'Oxygen', sans-serif;
+  margin-right: 8%;
+  margin-left: 8%;
 }
 
 .contact-grid {
@@ -130,5 +132,9 @@
 @media (max-width: 490px) {
 
 .landing-grid {
-  height: 110%;
+  height: 150%;
+}
+
+.contact-grid span {
+  font-size: smaller;
 }}
