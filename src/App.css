@@ -126,3 +126,9 @@
   font-size: 5em;
   padding: 8px;
 }
+
+@media (max-width: 490px) {
+
+.landing-grid {
+  height: 110%;
+}}

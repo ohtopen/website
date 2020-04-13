@@ -5,7 +5,7 @@ import { Grid, Cell } from 'react-mdl';
 class Landing extends Component {
   render() {
     return(
-      <div className="backround">
+      <div className="landing-grid">
         <Grid className="landing-grid">
           <Cell col={12}>
             {<img
