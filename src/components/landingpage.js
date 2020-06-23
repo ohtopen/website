@@ -33,7 +33,7 @@ class Landing extends Component {
             <i className="fa fa-github-square" aria-hidden="true" />
           </a>
 
-          {/* Youtube */}
+          {/* FB */}
           <a href="https://www.facebook.com/ohto.pentikainen" rel="noopener noreferrer" target="_blank">
             <i className="fa fa-facebook-square" aria-hidden="true" />
           </a>
